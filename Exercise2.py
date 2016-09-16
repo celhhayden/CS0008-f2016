@@ -1,15 +1,31 @@
 # name   : Celest Hayden
 # email  : chh147@my.pitt
-# date   : 6 September 2016
+# date   : 13 September 2016
 # Class  : CS0008-f2016
 # instructor : Max Noveli
 #
-# Description    : Starting with Python, Chapter 2, Exercise 2
+#Description    : Chapter 3, Programing Exercise 2
 #
-# notes  : exercise asks to find value for projected sale
+#Notes:
 #
-# the book gave no value so I used a random amount (1,000) to describe the total sales
-total_sales = 1000
-# for these next two lines I found an example from the book and decided to do something like it
-annual_profit = total_sales * .23
-print("Annual profit:",annual_profit)
+#finding the area for the first rectangle
+length1 = float(input("Insert the length for rectangle 1: "))
+width1 = float(input("Insert the width for rectangle 1: "))
+
+rec1 = length1 * width1
+print("     Area of rectangle 1 = ", str(rec1))
+
+#finding the area of second rectangle
+length2 = float(input("Insert the length for rectangle 2: "))
+width2 = float(input("Insert the width for rectangle 2: "))
+
+rec2 = length2 * width2
+print("     Area of rectangle 2 = ", str(rec2))
+
+#determining which rectangle is greater
+if rec1 > rec2:
+    print("Rectangle 1 is greater than rectangle 2.", str(rec1), ">", str(rec2))
+elif rec1 == rec2:
+    print("Rectangle 1 and rectangle 2 are both equal.", str(rec1), "=", str(rec2))
+else:
+    print("Rectangle 2 is greater than rectangle 1.", str(rec1), "<", str(rec2))
