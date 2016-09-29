@@ -1,0 +1,9 @@
+
+For this program, a lot of if-elif-else statements were of course used
+to complete the task.  I had to find a way to have the user input a unit
+of measurement, the distance, and gas and then use if statements to
+make sure the right equations were used to make the right conversions.
+After getting the conversions and such, I had to apply multiple formats to
+print the information in an organized chart structure.  I looked in
+the book for formatting assistance and applied what I found to make
+the information presented nicely.

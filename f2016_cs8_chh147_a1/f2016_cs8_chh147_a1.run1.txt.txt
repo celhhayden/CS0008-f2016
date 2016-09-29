@@ -1,0 +1,12 @@
+Is this in USC/Metric? (Please capitalize): USC
+Input the distance travelled: 100
+Input the gas consumed: 6
+			 USC				Metric
+Distance:	    100.000  miles		    160.934  Km
+Gas:		      6.000  gallons	    	     22.712  Liters
+Consumption:         16.667  mpg		     14.113  1/100Km
+ 
+Gas Consumption Rating:  Average
+
+It didn't line up correctly after copy and paste so I input my own spaces
+to match what shows up in PyCharm.
