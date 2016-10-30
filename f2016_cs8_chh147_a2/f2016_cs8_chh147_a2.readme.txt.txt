@@ -1,0 +1,11 @@
+For the code, there were a lot of errors that came up that I had to work
+around, sometimes resulting in a few more lines than I would hope would
+have been necessary.  I ended up creating three functions and used multiple
+loop functions in order to parse out the info that was required.  The way
+I ended up getting the formating was actually a bit of luck mixed with help
+from the book, but I believe after getting it I better understand some of
+the functions I used.  I also made sure to include plenty of notes along with
+certain portions of the code, since as I mentioned earlier there were some
+not-so-shortcuts I had to take in order for my code to work.  Minus some
+frustrating syntx errors and the other formatting errors the coding went 
+pretty smoothly.
