@@ -1,0 +1,11 @@
+For this project I actually included 4 different files along with the final assignment
+to better capture my thought process as i programmed.  Most of the helpful comments
+are included in testing files 3 and 4.  They mostly talked about any problems i encountered
+during programming, how i tried to approach the problems, and if i received any assistance from
+external sources, such as the internet or personal help.
+Your email really did help a lot, so i thank you for the help.
+i felt like i hit a lot of road blocks along the way of programming this, but a lot of the
+problems really had simple solutions i had just thought over because of how simple they seemed.
+One example would be finding the min and max distances using the loops.  i have a more
+detailed description within the testing4 file as well as the final assignment file as to how
+the solution was discovered, although i did receive some assistance for that part in particular.
