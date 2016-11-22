@@ -19,6 +19,9 @@
 #there were complications taking the file names from user inputs
 #so that they would actually read as files, so the prompts will come
 #up later for the user to still specify which file they want
+#
+# MN: why do you open the files here? 
+#     ...and more so why do you hard code the file names here? 
 file1 = open('f2016_cs8_a2.data.1.csv', 'r')
 file2 = open('f2016_cs8_a2.data.2.csv', 'r')
 
@@ -29,6 +32,8 @@ file2 = open('f2016_cs8_a2.data.2.csv', 'r')
 #actually edited in the file
 def testForReadlines(filenum):
     accumulator = 0
+    #
+    # MN: why you do range to 50? what if a file has more than 50 lines?
     for line in range(50):
         accumulator += 1
         string = filenum.readline().rstrip('\n').split(' , ')
@@ -53,6 +58,8 @@ def processFile(fh):
     #by using '+=' to accumulate values
     total_distance = 0
     #begin loop to read each individual line
+    #
+    # MN: same comment as above: why only to 50? what happens if the file has more than 50 lines?
     for line in range(50):
         #begin accumulating lines
         #start receiving the llines
@@ -95,6 +102,9 @@ def printKV(key, value, klen = 0):
 #initiate with the user
 prompt = input("Please provide the file name : ")
 while prompt != ('q' and 'quit'):
+    # 
+    # MN: what if I enter a file that has the right format but a different file name?
+    #
     if prompt == 'f2016_cs8_a2.data.1.csv':
         #the amount of lines in the file
         lines1 = testForReadlines(file1)
