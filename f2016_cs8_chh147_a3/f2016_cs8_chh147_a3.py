@@ -24,7 +24,9 @@
 #the fourth part is taking all the requested data and printing it for the user
 
 #open the master file to access list of data file names
-masterfilename='C:\\Users\Celest\CS0008\CS0008-f2016\\f2016_cs8_chh147_a3\\f2016_cs8_a3.data\\f2016_cs8_a3.data.txt'
+# MN: why not asking the user for the master list file name,
+#masterfilename='C:\\Users\Celest\CS0008\CS0008-f2016\\f2016_cs8_chh147_a3\\f2016_cs8_a3.data\\f2016_cs8_a3.data.txt'
+masterfilename='f2016_cs8_a3.data.txt'
 fh = open(masterfilename, 'r')
 filelist = fh.readlines()
 fh.close()
@@ -43,7 +45,9 @@ for source in filelist:
     #create string that contains full file name each time
     #will take the same access route each time to open the specific file in
     #efficient manner
-    fullname = 'C:\\Users\Celest\CS0008\CS0008-f2016\\f2016_cs8_chh147_a3\\f2016_cs8_a3.data\\' + str(source)
+    # MN: why are hard coding the path here. this makes it hard to test
+    #fullname = 'C:\\Users\Celest\CS0008\CS0008-f2016\\f2016_cs8_chh147_a3\\f2016_cs8_a3.data\\' + str(source)
+    fullname = str(source)
     #open current file for reading
     fh = open(fullname, 'r')
     files_read += 1
@@ -83,6 +87,8 @@ how_many_people = len(ddata)
 #now to find the maximum and minimum distances ran, as well as the people who
 #ran them
 
+# MN: the only issue that I see here is that you are comptuing the max and min on the single run
+#     and not on the comulative running for the participant
 #find runner with maximum distance
 #set pmax to 0 so nothing is less than it
 pmax = 0
@@ -126,7 +132,9 @@ for person in ddata:
 #give the new file a name
 new_data_file = 'f2016_cs8_chh147_a3.data.output.csv'
 #assign the file path
-full_new_file_name = 'C:\\Users\Celest\CS0008\CS0008-f2016\\f2016_cs8_chh147_a3\\f2016_cs8_a3.data\\' + str(new_data_file)
+# MN: why do you hard code the path here. it makes it hard to test
+#full_new_file_name = 'C:\\Users\Celest\CS0008\CS0008-f2016\\f2016_cs8_chh147_a3\\f2016_cs8_a3.data\\' + str(new_data_file)
+full_new_file_name = str(new_data_file)
 #open the full file name
 fptr = open(full_new_file_name, 'w')
 
