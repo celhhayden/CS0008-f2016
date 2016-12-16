@@ -1,0 +1,22 @@
+C:\Users\Celest\AppData\Local\Programs\Python\Python35-32\python.exe C:/Users/Celest/CS0008/CS0008-f2016/f2016_cs8_chh147_fp/f2016_cs8_chh147_fp.py
+When inputing file info, please place necessary backlashes at end of file directory, and double every backslash
+What is the location of the master file? C:\\Users\Celest\CS0008\CS0008-f2016\\f2016_cs8_chh147_fp\\f2016_cs8_fp.data\\f2016_cs8_fp.data.txt
+What is the path to the file containing the data? C:\\Users\Celest\CS0008\CS0008-f2016\\f2016_cs8_chh147_fp\\f2016_cs8_fp.data\\
+Where do you want to save the new file? C:\\Users\Celest\CS0008\CS0008-f2016\\f2016_cs8_chh147_fp\\f2016_cs8_fp.data\\
+
+Number of Input files read   :  3
+Total number of lines read   :  453
+
+Total distance run           :  23222.95594971854
+
+max distance run             :  205.82148177564366
+  by participant             :  Glynis
+
+min distance run             :  0.057889446920667
+  by participant             :  Alex
+
+Total number of participants:  388
+Number of participants
+with multiple records        :  60
+
+Process finished with exit code 0

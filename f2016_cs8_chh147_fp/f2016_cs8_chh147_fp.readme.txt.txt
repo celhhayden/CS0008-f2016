@@ -1,0 +1,12 @@
+For this program, I was able to reuse a lot of code from the previous assignment 3
+which was a real time saver.  The only thing was I had to find a way to reshape the
+basic structure of it to be able to access class data.
+Some parts of the code pulls ideas from the teacher solution and I had a bit of
+assisstance, but other than that a lot of this is my own through a lot of trial and
+error to find the right rearrangement of the old code to fit the assignment requirements.
+Working with classes was a bit of a struggle throughout the project since it was fairly
+newly introduced before the start, but I now feel that I understand the object-oriented
+programming better as a result.
+I actually used the results of your code to check and make sure my code had the right
+outputs with the mminimum and maximum runners and distances, since going through those
+3 lists would have taken a lot longer if not for such any easy reference source.
